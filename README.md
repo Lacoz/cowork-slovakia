@@ -24,6 +24,10 @@ Kolekcia pluginov reprezentujúcich PHP programátorov z rôznych regiónov Slov
 
 **Rasťo Hrubý** — Sysadmin z Bratislavy. Docker, CI/CD, deployment, monitoring — ten celý DevOps cirkus. Občas zanadáva keď niečo spadne, ale vždy to fixne.
 
+## Príklad konverzácie
+
+Ukážka, ako sa postavy hádajú o to, kto urobí malý web: [EXAMPLE-CONVERSATION.md](./EXAMPLE-CONVERSATION.md)
+
 ## Štruktúra pluginu
 
 ```
