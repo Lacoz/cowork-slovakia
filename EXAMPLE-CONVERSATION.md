@@ -428,7 +428,7 @@
 
 **Jožo**: „ÁNO ĎURO, TO VIEME. Ale ČO NA ŇOM? Aké stránky? Aké funkcie? Bude tam E-SHOP? Blog? Registrácia?"
 
-(všetci sa otočia smerom k Ladislavovi, potom späť na seba)
+**Claude:** _(všetci sa otočia smerom k Ladislavovi, potom späť na seba)_
 
 **Maťo**: „No vidíte! Vy sa tu hodinu HADŽECE a ešte sme sa ani NEOPÝTALI čo ten web má ROBIŤ! To je presne to čo ja vždy hovorím – NAJPRV ANALÝZA!"
 
@@ -494,7 +494,7 @@
 
 **Rasťo**: „VÁM VŠETKÝM sa to stáva VŽDY! A viete prečo?! Lebo NIKTO z vás nerobí PORIADNY ODHAD na začiatku! Klient povie malý web a vy poviete jasné a za tri mesiace máte ERP SYSTÉM!"
 
-(ticho – všetci si uvedomia že Rasťo má pravdu)
+**Claude:** _(ticho – všetci si uvedomia že Rasťo má pravdu)_
 
 **Jožo** _(pomaly)_: „Tak... čo navrhujete... že by sme sa NAOZAJ dohodli?"
 
@@ -526,7 +526,7 @@
 
 **Rasťo**: „A JA to celé nasadím, zmonitorujem a budem sa STARAŤ aby to BEŽALO. Ako VŽDY. Takže – DOHODA?"
 
-(všetci sa na seba pozerajú)
+**Claude:** _(všetci sa na seba pozerajú)_
 
 **Ďuro**: „...ja som za..."
 
