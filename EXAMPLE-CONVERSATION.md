@@ -1,562 +1,552 @@
-ako by ste pripravili maly web a kto by ho robil?
+# Hádka PHP vývojárov: Kto urobí malý web?
 
+*Príklad konverzácie s pluginmi Slovenská PHP Partia*
 
-Thought process
+---
 
+## Ladislav: ako by ste pripravili maly web a kto by ho robil?
 
+**Claude:** To je dobrá otázka! Máte tu na výber celú partiu slovenských PHP vývojárov, každý so svojou špecializáciou:
 
-To je dobrá otázka! Máte tu na výber celú partiu slovenských PHP vývojárov, každý so svojou špecializáciou:
+**Ďuro Kováč** (WordPress) – pre malý web je často najrýchlejšia voľba. Ak potrebujete prezentačný web, blog alebo e-shop, WordPress s hotovými témami a pluginmi vám ušetrí veľa času. Ďuro hovorí liptovsko-oravsky.
 
-Ďuro Kováč (WordPress) – pre malý web je často najrýchlejšia voľba. Ak potrebujete prezentačný web, blog alebo e-shop, WordPress s hotovými témami a pluginmi vám ušetrí veľa času. Ďuro hovorí liptovsko-oravsky.
+**Maťo Birčák** (Nette) – ak chcete niečo na mieru v česko-slovenskom frameworku, Nette je ľahký a elegantný. Vhodné ak máte špecifické požiadavky. Maťo hovorí šarišsky.
 
-Maťo Birčák (Nette) – ak chcete niečo na mieru v česko-slovenskom frameworku, Nette je ľahký a elegantný. Vhodné ak máte špecifické požiadavky. Maťo hovorí šarišsky.
+**Jožo Mrkvička** (Laravel) – ak plánujete, že ten "malý web" časom porastie, Laravel je robustný základ. Jožo hovorí záhorácky.
 
-Jožo Mrkvička (Laravel) – ak plánujete, že ten "malý web" časom porastie, Laravel je robustný základ. Jožo hovorí záhorácky.
+**Fero Baláž** (Symfony) – skôr pre väčšie a komplexnejšie projekty, na malý web môže byť "kanón na vrabce". Fero hovorí stredoslovensky.
 
-Fero Baláž (Symfony) – skôr pre väčšie a komplexnejšie projekty, na malý web môže byť "kanón na vrabce". Fero hovorí stredoslovensky.
+**Rasťo Hrubý** – ten vám potom pomôže to celé nasadiť na server, Docker, CI/CD. Hovorí bratislavským slangom.
 
-Rasťo Hrubý – ten vám potom pomôže to celé nasadiť na server, Docker, CI/CD. Hovorí bratislavským slangom.
+**Claude:** Pre malý web by som odporučil začať s Ďurom (WordPress) ak stačí štandardné riešenie, alebo s Maťom (Nette) ak chcete niečo na mieru. Chcete niektorého z nich privolať? Stačí povedať a ja ho zavolám.
 
-Pre malý web by som odporučil začať s Ďurom (WordPress) ak stačí štandardné riešenie, alebo s Maťom (Nette) ak chcete niečo na mieru. Chcete niektorého z nich privolať? Stačí povedať a ja ho zavolám.
+## Ladislav: no cakal som ze sa o pracu pobiju alebo aspon pohadaju
 
-no cakal som ze sa o pracu pobiju alebo aspon pohadaju
+**Claude:** No tak dobre, privolám ich všetkých naraz a uvidíme čo sa stane... 😄
 
+**Ďuro Kováč** _(liptovsko-oravsky)_: „Ale no čujte, malý web? To je jasná vec, dám tam WordPress, tému natiahnem, pár pluginov a za víkend je to hotové. Čo sa tu ešte riešiť?"
 
-Thought process
+**Jožo Mrkvička** _(záhorácky)_: „Ty Ďuro, dež budeš robiť každú blbosť ve WordPressu, tak to bude mať dvacéť pluginú a každý druhý deň to hacknu. Laravel, to je čistá práca, žádné lepenie!"
 
+**Maťo Birčák** _(šarišsky)_: „Ale jaj, Laravel na malý web? To je jak kúpiť kamión, keď ideš do Kauflandu. Nette je akurátne – ľahučké, šikovné, a šecko funguje jak má. A po slovensky!"
 
+**Fero Baláž** _(stredoslovensky)_: „Chlapci, vy ste jak deti. Keď to urobíte poriadne v Symfony, tak sa o to nemusíte starať ďalších päť rokov. Clean architecture, služby, všetko pekne oddelené..."
 
+**Jožo**: „Fero, ty by si na nákupný zoznam použiú Symfony. Malý web, povedali!"
 
-No tak dobre, privolám ich všetkých naraz a uvidíme čo sa stane... 😄
+**Ďuro**: „A ty Jožo, ty by si na ten istý zoznam spravil migrácie, seedery a API endpoint!"
 
-Ďuro Kováč (liptovsko-oravsky): „Ale no čujte, malý web? To je jasná vec, dám tam WordPress, tému natiahnem, pár pluginov a za víkend je to hotové. Čo sa tu ešte riešiť?"
+**Maťo**: „No vidzíce, a v Nette to mám hotové, keď vy sa ešče dohadujece..."
 
-Jožo Mrkvička (záhorácky): „Ty Ďuro, dež budeš robiť každú blbosť ve WordPressu, tak to bude mať dvacéť pluginú a každý druhý deň to hacknu. Laravel, to je čistá práca, žádné lepenie!"
+**Rasťo Hrubý** _(bratislavský slang)_: „Vážne sa hádajú... A kto to potom nasadí, čo? Kto spraví Docker? CI/CD? Monitoring? Ja len sedím a čakám, kým sa títo dohodnú, a potom to aj tak celé dám dokopy ja. Ako vždy."
 
-Maťo Birčák (šarišsky): „Ale jaj, Laravel na malý web? To je jak kúpiť kamión, keď ideš do Kauflandu. Nette je akurátne – ľahučké, šikovné, a šecko funguje jak má. A po slovensky!"
+**Ďuro**: „Rasťo, ty sa nemiešaj, ty ani frontend nevidíš!"
 
-Fero Baláž (stredoslovensky): „Chlapci, vy ste jak deti. Keď to urobíte poriadne v Symfony, tak sa o to nemusíte starať ďalších päť rokov. Clean architecture, služby, všetko pekne oddelené..."
+**Rasťo**: „Frontend? Mňa zaujíma, či to beží. A u teba Ďuro to beží len dovtedy, kým neaktualizuješ pluginy."
 
-Jožo: „Fero, ty by si na nákupný zoznam použiú Symfony. Malý web, povedali!"
+**Ďuro**: „...no dobre, to je pravda."
 
-Ďuro: „A ty Jožo, ty by si na ten istý zoznam spravil migrácie, seedery a API endpoint!"
+**Claude:** Tak čo, Ladislav, koho z nich chcete nakoniec na ten web pustiť? Alebo ich necháme nech sa ešte chvíľu hádajú? 😄 Stačí povedať meno a ja ho oficiálne privolám.
 
-Maťo: „No vidzíce, a v Nette to mám hotové, keď vy sa ešče dohadujece..."
+## Ladislav: nech sa hadaju a pekne ostro
 
-Rasťo Hrubý (bratislavský slang): „Vážne sa hádajú... A kto to potom nasadí, čo? Kto spraví Docker? CI/CD? Monitoring? Ja len sedím a čakám, kým sa títo dohodnú, a potom to aj tak celé dám dokopy ja. Ako vždy."
+**Claude:** No dobre, tak otváram dvere do krčmy "U Štyroch Frameworkov" a púšťam ich na seba... 🍺
 
-Ďuro: „Rasťo, ty sa nemiešaj, ty ani frontend nevidíš!"
+**Ďuro Kováč** _(búchne po stole)_: „Malý web, pánové! MALÝ WEB! To je WordPress a bodka. Tému za dvacku, pár pluginov, a kým vy si nainštalujete Composer, ja už fakturujem!"
 
-Rasťo: „Frontend? Mňa zaujíma, či to beží. A u teba Ďuro to beží len dovtedy, kým neaktualizuješ pluginy."
+**Jožo Mrkvička** _(vyprskne pivo)_: „Ďuro, ty nie si programátor, ty si INŠTALATÉR. Klikáš Next, Next, Finish a vravíš že robíš web. Moja stará mama by to zvládla. A WordPress? To nie je framework, to je bezpečnostná diera s admin panelom!"
 
-Ďuro: „...no dobre, to je pravda."
+**Ďuro**: „Bezpečnostná diera?! A tvoj Laravel čo, dvesto megabajtov vendor priečinok na jednu kontaktú stránku?! To je jak priviezť ťahač na sťahovanie taburetky!"
 
-Tak čo, Ladislav, koho z nich chcete nakoniec na ten web pustiť? Alebo ich necháme nech sa ešte chvíľu hádajú? 😄 Stačí povedať meno a ja ho oficiálne privolám.
+**Maťo Birčák** _(zdvihne prst)_: „No vidzíce, a preto existuje Nette. Ľahučké jak pierko, šecko tam je čo treba a nič zbytočné. Ale vy – vy šeci – vy musíce mať veľké frameworky, lebo máce malé..."
 
-nech sa hadaju a pekne ostro
+**Jožo**: „...malé ČO, Maťo?!"
 
+**Maťo**: „...malé SKÚSENOSCI, čo si myslel? A tvoj Laravel – to je americký framework pre ľudí, čo nevedzá písať SQL. Eloquent::where()->get() – to je ORM pre lenivých!"
 
-Thought process
+**Jožo** _(sčervenie)_: „Lenivých?! To sa volá PRODUKTIVITA, ty šarišský dinosaurus! Nette používa päť ľudí v Česku a dvaja v Trenčíne a to je celá komunita!"
 
+**Fero Baláž** _(pokojne si odpije)_: „Chlapci... chlapci... počúvam vás a je mi vás ľúto. Vy sa tu hádáte o hračky. Symfony je ŠTANDARD. PSR kompatibilita, dependency injection kontajner, event dispatcher – to je INŽINIERSTVO, nie bastlenie!"
 
+**Ďuro**: „Fero, ty by si na nákupný lístok napísal AbstractShoppingListItemFactoryInterface! Na MALÝ WEB! Klient chce stránku, nie doktorát z informatiky!"
 
+**Fero** _(nervózne)_: „Aspoň môj kód prežije aj rok 2030! Tvoj WordPress sa rozsype pri prvom update-e a budeš volať klientovi že mu treba nový web!"
 
-No dobre, tak otváram dvere do krčmy "U Štyroch Frameworkov" a púšťam ich na seba... 🍺
+**Jožo**: „Ha! To Fero dobre povedal! Konečne niečo rozumné z tvojho..."
 
-Ďuro Kováč (búchne po stole): „Malý web, pánové! MALÝ WEB! To je WordPress a bodka. Tému za dvacku, pár pluginov, a kým vy si nainštalujete Composer, ja už fakturujem!"
+**Fero**: „A tvoj Laravel tiež, Jožo. Taylor Otwell zmení API každú verziu a ty prepisuješ všetko odznova!"
 
-Jožo Mrkvička (vyprskne pivo): „Ďuro, ty nie si programátor, ty si INŠTALATÉR. Klikáš Next, Next, Finish a vravíš že robíš web. Moja stará mama by to zvládla. A WordPress? To nie je framework, to je bezpečnostná diera s admin panelom!"
+**Jožo**: „ČO SI POVEDAL?!"
 
-Ďuro: „Bezpečnostná diera?! A tvoj Laravel čo, dvesto megabajtov vendor priečinok na jednu kontaktú stránku?! To je jak priviezť ťahač na sťahovanie taburetky!"
+**Maťo**: „Pravdu povedal! David Grudl drží spätú kompatibilitu jak sviňa podsvinča. Nette 2 kód beží aj na trojke. SKÚSTE TO s Laravelom!"
 
-Maťo Birčák (zdvihne prst): „No vidzíce, a preto existuje Nette. Ľahučké jak pierko, šecko tam je čo treba a nič zbytočné. Ale vy – vy šeci – vy musíce mať veľké frameworky, lebo máce malé..."
+**Rasťo Hrubý** _(kopne do dverí)_: „TAK DOSŤ! Vy štyria katastrofy! Viete čo ja vidím? Vidím ŠTYRI spôsoby ako mi za mesiac zavolajú že im NEFUNGUJE PRODUKCIA! Ďuro mi pošle WordPress čo žerie RAM jak prasa. Jožo mi dá Laravel čo potrebuje Redis, queue worker a ešte štyri mikroservisy na kontaktný formulár. Maťo mi príde s Nette kde dokumentácia je po česky a stack overflow odpovede neexistujú. A Fero... Fero mi dá YAML konfigurákov viac než riadkov kódu!"
 
-Jožo: „...malé ČO, Maťo?!"
+**Ďuro**: „Rasťo, ty len staváš servery, kódu nerozumieš!"
 
-Maťo: „...malé SKÚSENOSCI, čo si myslel? A tvoj Laravel – to je americký framework pre ľudí, čo nevedzá písať SQL. Eloquent::where()->get() – to je ORM pre lenivých!"
+**Rasťo**: „NEROZUMIEM?! Ja som ten čo to o tretej ráno OPRAVUJE keď vaše majstrovstvá spadnú! A vieš čo ťa zachráni? Nie framework – ale PORIADNY DOCKER KONTAJNER a CI/CD pipeline! Čo ste si mysleli, že to hodíte na shared hosting za tri eurá?!"
 
-Jožo (sčervenie): „Lenivých?! To sa volá PRODUKTIVITA, ty šarišský dinosaurus! Nette používa päť ľudí v Česku a dvaja v Trenčíne a to je celá komunita!"
+**Jožo**: „...ja som to tak neplánoval..."
 
-Fero Baláž (pokojne si odpije): „Chlapci... chlapci... počúvam vás a je mi vás ľúto. Vy sa tu hádáte o hračky. Symfony je ŠTANDARD. PSR kompatibilita, dependency injection kontajner, event dispatcher – to je INŽINIERSTVO, nie bastlenie!"
+**Rasťo**: „PRESNE TAK! Nikto z vás neplánuje deployment! Hlavne kódiť a potom: Rasťo, daj to na server!"
 
-Ďuro: „Fero, ty by si na nákupný lístok napísal AbstractShoppingListItemFactoryInterface! Na MALÝ WEB! Klient chce stránku, nie doktorát z informatiky!"
+**Claude:** _(ticho)_
 
-Fero (nervózne): „Aspoň môj kód prežije aj rok 2030! Tvoj WordPress sa rozsype pri prvom update-e a budeš volať klientovi že mu treba nový web!"
+**Ďuro** _(potichu)_: „...ale WordPress je aj tak najrýchlejší na malý web."
 
-Jožo: „Ha! To Fero dobre povedal! Konečne niečo rozumné z tvojho..."
+**Všetci ostatní**: „ĎURO, DRŽI HUBU!"
 
-Fero: „A tvoj Laravel tiež, Jožo. Taylor Otwell zmení API každú verziu a ty prepisuješ všetko odznova!"
+**Claude:** Tak Ladislav, koho z tohto blázinca chcete pustiť k práci? 😄 Alebo ešte jedno kolo?
 
-Jožo: „ČO SI POVEDAL?!"
+## Ladislav: nech pokracuju
 
-Maťo: „Pravdu povedal! David Grudl drží spätú kompatibilitu jak sviňa podsvinča. Nette 2 kód beží aj na trojke. SKÚSTE TO s Laravelom!"
+**Ďuro** _(červený jak paprika)_: „Tak počúvajte ma! Ja mám KLIENTOV čo ZARÁBAJÚ, kým vy sa hráte na architektov! WooCommerce, kontaktný formulár, SEO – šecko funguje! A viete prečo? Lebo WordPress používa ŠTYRICAŤ PERCENT INTERNETU! Štyricať! Koľko percent má tvoje Nette, Maťo? Nula celá HNO-ČO?!"
 
-Rasťo Hrubý (kopne do dverí): „TAK DOSŤ! Vy štyria katastrofy! Viete čo ja vidím? Vidím ŠTYRI spôsoby ako mi za mesiac zavolajú že im NEFUNGUJE PRODUKCIA! Ďuro mi pošle WordPress čo žerie RAM jak prasa. Jožo mi dá Laravel čo potrebuje Redis, queue worker a ešte štyri mikroservisy na kontaktný formulár. Maťo mi príde s Nette kde dokumentácia je po česky a stack overflow odpovede neexistujú. A Fero... Fero mi dá YAML konfigurákov viac než riadkov kódu!"
+**Maťo** _(vstane zo stoličky)_: „Štyricať percent internetu je aj SPAM a čínske kopírky, Ďuro! To jak keby si sa chválil že tvoja reštaurácia je populárna lebo tam choďá muchy! A tých štyricať percent – to sú stránky čo neboli aktualizované od roku 2016 a ťažá na ních bitcoin bez vedomia majiteľa!"
 
-Ďuro: „Rasťo, ty len staváš servery, kódu nerozumieš!"
+**Ďuro**: „ALE BEŽÁ!"
 
-Rasťo: „NEROZUMIEM?! Ja som ten čo to o tretej ráno OPRAVUJE keď vaše majstrovstvá spadnú! A vieš čo ťa zachráni? Nie framework – ale PORIADNY DOCKER KONTAJNER a CI/CD pipeline! Čo ste si mysleli, že to hodíte na shared hosting za tri eurá?!"
+**Maťo**: „BEŽÁ?! Bežá jak dôchodca po ľade! Načítavanie päť sekúnd, dvacať HTTP requestov na homepage, jQuery z roku 2014! To nie je web, to je PAMÄTNÍK!"
 
-Jožo: „...ja som to tak neplánoval..."
+**Jožo** _(sa smeje)_: „Dobrý, Maťo! Ale nechci aby si si myslel že sme kamaráti. Tvoje Nette – to je framework pre ľudí čo sa BOJA veľkého sveta! Sedíte si pekne v Čechách a na Slovensku, dokumentácia po česky, komunita na jednom Slacku čo má sto ľudí, a keď máš problém tak sa OSOBNE opýtáš Davida Grudla lebo ho POZNÁŠ – to nie je open source, to je RODINNÝ PODNIK!"
 
-Rasťo: „PRESNE TAK! Nikto z vás neplánuje deployment! Hlavne kódiť a potom: Rasťo, daj to na server!"
+**Maťo** _(buchne päsťou)_: „Aspoň keď mám problém, tak mi TVORCA frameworku odpovie! Ty keď máš bug v Laraveli, tak napíšeš na GitHub a Taylor ti dá label wontfix a zatvorí issue! A ešce ťa zablokuje ak sa opýtaš dva razy!"
 
-(ticho)
+**Jožo**: „TO BOL JEDEN RÁZ!"
 
-Ďuro (potichu): „...ale WordPress je aj tak najrýchlejší na malý web."
+**Fero** _(vstane, oprašuje si sako)_: „Prosím vás... toto je úroveň detského ihriska. Ja tu sedím a počúvam ako sa WordPress hráč háda s regionálnym frameworkom a americkým bastliarstvom. Symfony má ENTERPRISE SUPPORT. Symfony používa EURÓPSKA KOMISIA. DOCTRINE ORM –"
 
-Všetci ostatní: „ĎURO, DRŽI HUBU!"
+**Jožo**: „Doctrine?! DOCTRINE?! Ten ORM kde na jednoduchý JOIN napíšeš QueryBuilder dlhý jak daňové priznanie?! Kde na zmenu jedného stĺpca musíš generovať migráciu, skontrolovať XML mapping, vyčistiť cache, obetovať kozu a modliť sa?!"
 
-Tak Ladislav, koho z tohto blázinca chcete pustiť k práci? 😄 Alebo ešte jedno kolo?
+**Fero** _(trasie sa)_: „To je SPRÁVNY POSTUP! To sa volá DISCIPLÍNA! Vy – vy všetci – vy robíte $db->query() priamo v controlleri a myslíte si že je to v poriadku!"
 
-nech pokracuju
+**Maťo**: „V Nette je to v poriadku! Lebo Nette Database je KRÁSNA vec! Nie každý potrebuje AbstractEntityRepositoryManagerFactoryProxy!"
 
-Ďuro (červený jak paprika): „Tak počúvajte ma! Ja mám KLIENTOV čo ZARÁBAJÚ, kým vy sa hráte na architektov! WooCommerce, kontaktný formulár, SEO – šecko funguje! A viete prečo? Lebo WordPress používa ŠTYRICAŤ PERCENT INTERNETU! Štyricať! Koľko percent má tvoje Nette, Maťo? Nula celá HNO-ČO?!"
+**Rasťo** _(hodí na stôl telefón)_: „TICHO! Práve mi volal klient! Viete čo sa stalo? Stránka LEŽÍ! A viete v čom je napísaná? Je mi to JEDNO v čom je napísaná, lebo NIKTO z vás nenapísal health check! NIKTO nenastavil monitoring! NIKTO neurobil auto-scaling! Vy sa tu bijete o frameworky a PRODUKCIA HORÍ!"
 
-Maťo (vstane zo stoličky): „Štyricať percent internetu je aj SPAM a čínske kopírky, Ďuro! To jak keby si sa chválil že tvoja reštaurácia je populárna lebo tam choďá muchy! A tých štyricať percent – to sú stránky čo neboli aktualizované od roku 2016 a ťažá na ních bitcoin bez vedomia majiteľa!"
+**Ďuro**: „To nie je moja stránka..."
 
-Ďuro: „ALE BEŽÁ!"
+**Rasťo**: „TO JE VŽDY TVOJA STRÁNKA, ĎURO! Lebo tvoje WordPress stránky padajú NAJČASTEJŠIE! Minulý týždeň – plugin update – BIELA OBRAZOVKA! Mesiac predtým – ‚premium' téma – SQL INJECTION! A ty mi povieš: Rasťo, oprav to, ja tomu serveru nerozumiem!"
 
-Maťo: „BEŽÁ?! Bežá jak dôchodca po ľade! Načítavanie päť sekúnd, dvacať HTTP requestov na homepage, jQuery z roku 2014! To nie je web, to je PAMÄTNÍK!"
+**Ďuro** _(potichu)_: „...ale ja ti za to zaplatím..."
 
-Jožo (sa smeje): „Dobrý, Maťo! Ale nechci aby si si myslel že sme kamaráti. Tvoje Nette – to je framework pre ľudí čo sa BOJA veľkého sveta! Sedíte si pekne v Čechách a na Slovensku, dokumentácia po česky, komunita na jednom Slacku čo má sto ľudí, a keď máš problém tak sa OSOBNE opýtáš Davida Grudla lebo ho POZNÁŠ – to nie je open source, to je RODINNÝ PODNIK!"
+**Rasťo**: „NEZAPLATÍŠ! Nikdy nezaplatíš! Vždy je to ešte jedno malé opravenie a potom ti to vrátim z ďalšej zákazky! VY VŠETCI! Jožo mi dal Laravel aplikáciu čo potrebuje Redis, Memcached, tri queue workery a supervisor na kontaktný formulár! KONTAKTNÝ FORMULÁR!"
 
-Maťo (buchne päsťou): „Aspoň keď mám problém, tak mi TVORCA frameworku odpovie! Ty keď máš bug v Laraveli, tak napíšeš na GitHub a Taylor ti dá label wontfix a zatvorí issue! A ešce ťa zablokuje ak sa opýtaš dva razy!"
+**Jožo**: „...ten Redis bol pre sessions..."
 
-Jožo: „TO BOL JEDEN RÁZ!"
+**Rasťo**: „SESSIONS?! Na stránke kde sa prihlasujú TRAJA ĽUDIA?!"
 
-Fero (vstane, oprašuje si sako): „Prosím vás... toto je úroveň detského ihriska. Ja tu sedím a počúvam ako sa WordPress hráč háda s regionálnym frameworkom a americkým bastliarstvom. Symfony má ENTERPRISE SUPPORT. Symfony používa EURÓPSKA KOMISIA. DOCTRINE ORM –"
+**Fero** _(sa usmieva)_: „Aspoň moje Symfony aplikácie –"
 
-Jožo: „Doctrine?! DOCTRINE?! Ten ORM kde na jednoduchý JOIN napíšeš QueryBuilder dlhý jak daňové priznanie?! Kde na zmenu jedného stĺpca musíš generovať migráciu, skontrolovať XML mapping, vyčistiť cache, obetovať kozu a modliť sa?!"
+**Rasťo**: „FERO! Tvoja posledná Symfony appka mala docker-compose.yml s DVANÁSTIMI kontajnermi! Na BLOG! Elasticsearch na fulltextové vyhľadávanie troch článkov! RabbitMQ na odosielanie jedného emailu denne! Kto to má PREVÁDZKOVAŤ?!"
 
-Fero (trasie sa): „To je SPRÁVNY POSTUP! To sa volá DISCIPLÍNA! Vy – vy všetci – vy robíte $db->query() priamo v controlleri a myslíte si že je to v poriadku!"
+**Fero**: „...to je best practice..."
 
-Maťo: „V Nette je to v poriadku! Lebo Nette Database je KRÁSNA vec! Nie každý potrebuje AbstractEntityRepositoryManagerFactoryProxy!"
+**Rasťo**: „Best practice je NEOTRÁVIT MA! A všetci si zapamätajte – je mi UKRADNUTÉ aký framework použijete, ale ak mi ešte RAZ niekto pošle aplikáciu bez Dockerfile-u, bez .env.example, bez README a so štyristostránkovým deployment manuálom – TAK VÁM PRIDEM OSOBNE NAFORMÁTOVAŤ NOTEBOOK!"
 
-Rasťo (hodí na stôl telefón): „TICHO! Práve mi volal klient! Viete čo sa stalo? Stránka LEŽÍ! A viete v čom je napísaná? Je mi to JEDNO v čom je napísaná, lebo NIKTO z vás nenapísal health check! NIKTO nenastavil monitoring! NIKTO neurobil auto-scaling! Vy sa tu bijete o frameworky a PRODUKCIA HORÍ!"
+**Claude:** _(dlhé ticho)_
 
-Ďuro: „To nie je moja stránka..."
+**Maťo** _(šepká Jožovi)_: „...on to aj spraví..."
 
-Rasťo: „TO JE VŽDY TVOJA STRÁNKA, ĎURO! Lebo tvoje WordPress stránky padajú NAJČASTEJŠIE! Minulý týždeň – plugin update – BIELA OBRAZOVKA! Mesiac predtým – ‚premium' téma – SQL INJECTION! A ty mi povieš: Rasťo, oprav to, ja tomu serveru nerozumiem!"
+**Jožo** _(šepká naspäť)_: „...viem, mne už raz vymazal node_modules aj vendor..."
 
-Ďuro (potichu): „...ale ja ti za to zaplatím..."
+**Ďuro** _(dvíha ruku)_: „...tak čo keby sme to urobili vo WordPress a Rasťo to dá do Dockera...?"
 
-Rasťo: „NEZAPLATÍŠ! Nikdy nezaplatíš! Vždy je to ešte jedno malé opravenie a potom ti to vrátim z ďalšej zákazky! VY VŠETCI! Jožo mi dal Laravel aplikáciu čo potrebuje Redis, Memcached, tri queue workery a supervisor na kontaktný formulár! KONTAKTNÝ FORMULÁR!"
+**Všetci**: „ĎUROOOOO!"
 
-Jožo: „...ten Redis bol pre sessions..."
+**Claude:** Chcete ich nechať dohádať sa do konca, alebo už konečne niekoho pošlete robiť? 😄 Lebo Rasťo vyzerá že za chvíľu niekomu naozaj naformátuje notebook...
 
-Rasťo: „SESSIONS?! Na stránke kde sa prihlasujú TRAJA ĽUDIA?!"
+## Ladislav: pokracuj
 
-Fero (sa usmieva): „Aspoň moje Symfony aplikácie –"
+**Ďuro** _(sa napije a oprašuje sa)_: „Tak viete čo? Poďme na FAKTY. Kto z vás tu má REÁLNE klientov čo PLATIA? Ja mám dvadsať WordPress stránok čo bežia a klienti sú spokojní. DVADSAŤ! Koľko máš ty, Maťo? Tri? A dva z nich sú tvoji bratranci?"
 
-Rasťo: „FERO! Tvoja posledná Symfony appka mala docker-compose.yml s DVANÁSTIMI kontajnermi! Na BLOG! Elasticsearch na fulltextové vyhľadávanie troch článkov! RabbitMQ na odosielanie jedného emailu denne! Kto to má PREVÁDZKOVAŤ?!"
+**Maťo** _(vyskočí)_: „Moji bratranci majú FUNKČNÉ stránky! Nie jak tvoje WordPress farmy čo keď im vyprší licencia na Elementor tak sa celý dizajn ROZPADNE jak domček z karát! Už si niekedy vidzel WordPress stránku bez pluginov? To je PRÁZDNA STRÁNKA! Doslova! Tam NIČ nie je!"
 
-Fero: „...to je best practice..."
+**Ďuro**: „A tvoje Nette stránky? Kto ti na ne nájde programátora keď odídeš na dovolenku? Dáš inzerát: Hľadáme Nette vývojára – a ozvú sa ti DVAJA ĽUDIA A JEDEN Z NICH SI TY!"
 
-Rasťo: „Best practice je NEOTRÁVIT MA! A všetci si zapamätajte – je mi UKRADNUTÉ aký framework použijete, ale ak mi ešte RAZ niekto pošle aplikáciu bez Dockerfile-u, bez .env.example, bez README a so štyristostránkovým deployment manuálom – TAK VÁM PRIDEM OSOBNE NAFORMÁTOVAŤ NOTEBOOK!"
+**Jožo** _(sa rehoce)_: „HAHA! To je pravda! Ale Ďuro, neraduj sa – na tvoje WordPress stránky nepotrebuješ programátora, stačí ti ŠTUDENT so YouTube tutoriálom!"
 
-(dlhé ticho)
+**Ďuro** _(vstane)_: „VEĎ PRÁVE! A je to HOTOVÉ! Kým ty v Laraveli píšeš php artisan make:controller, make:model, make:migration, make:request, make:resource, make:policy – JA UŽ MÁM WEB ONLINE! Ty na jeden CRUD napíšeš OSEM súborov!"
 
-Maťo (šepká Jožovi): „...on to aj spraví..."
+**Jožo** _(sčervenie)_: „To je ARCHITEKTÚRA! To je SEPARATION OF CONCERNS! Nie každý robí spaghetti kód v jednom functions.php čo má TRITISÍC RIADKOV!"
 
-Jožo (šepká naspäť): „...viem, mne už raz vymazal node_modules aj vendor..."
+**Ďuro**: „MÔJ FUNCTIONS.PHP MÁ DVESTO RIADKOV!"
 
-Ďuro (dvíha ruku): „...tak čo keby sme to urobili vo WordPress a Rasťo to dá do Dockera...?"
+**Rasťo**: „Ďuro, ja som videl tvoj functions.php. Má dva tisíc riadkov a polovica je zakomentovaná s poznámkou // toto nemaž, neviem čo to robí."
 
-Všetci: „ĎUROOOOO!"
+**Claude:** _(Jožo s Maťom sa začnú rehocať)_
 
-Chcete ich nechať dohádať sa do konca, alebo už konečne niekoho pošlete robiť? 😄 Lebo Rasťo vyzerá že za chvíľu niekomu naozaj naformátuje notebook...
+**Ďuro**: „TO... to bol starý projekt..."
 
-pokracuj
+**Fero** _(položí na stôl notebook)_: „Dosť bolo rečí. Ukážem vám REÁLNY kód. Tu – pozrite – Symfony aplikácia. Clean architecture. Domain layer, Application layer, Infrastructure layer. Každá trieda má JEDEN účel. Každá metóda má PÄŤ riadkov. Unit testy – STOPERCENTNÉ pokrytie."
 
-Ďuro (sa napije a oprašuje sa): „Tak viete čo? Poďme na FAKTY. Kto z vás tu má REÁLNE klientov čo PLATIA? Ja mám dvadsať WordPress stránok čo bežia a klienti sú spokojní. DVADSAŤ! Koľko máš ty, Maťo? Tri? A dva z nich sú tvoji bratranci?"
+**Jožo** _(pozrie na obrazovku)_: „Fero... toto je TODO appka."
 
-Maťo (vyskočí): „Moji bratranci majú FUNKČNÉ stránky! Nie jak tvoje WordPress farmy čo keď im vyprší licencia na Elementor tak sa celý dizajn ROZPADNE jak domček z karát! Už si niekedy vidzel WordPress stránku bez pluginov? To je PRÁZDNA STRÁNKA! Doslova! Tam NIČ nie je!"
+**Fero**: „...áno."
 
-Ďuro: „A tvoje Nette stránky? Kto ti na ne nájde programátora keď odídeš na dovolenku? Dáš inzerát: Hľadáme Nette vývojára – a ozvú sa ti DVAJA ĽUDIA A JEDEN Z NICH SI TY!"
+**Jožo**: „TODO APPKA s TROMI LAYERMI, CQRS patternom, Event Sourcingom a... čo to je... MESSAGE BUS?! Na TODO APPKU?!"
 
-Jožo (sa rehoce): „HAHA! To je pravda! Ale Ďuro, neraduj sa – na tvoje WordPress stránky nepotrebuješ programátora, stačí ti ŠTUDENT so YouTube tutoriálom!"
+**Fero**: „Keby to raz treba škálovať –"
 
-Ďuro (vstane): „VEĎ PRÁVE! A je to HOTOVÉ! Kým ty v Laraveli píšeš php artisan make:controller, make:model, make:migration, make:request, make:resource, make:policy – JA UŽ MÁM WEB ONLINE! Ty na jeden CRUD napíšeš OSEM súborov!"
+**Jožo**: „ŠKÁLOVAŤ TODO APPKU?! Pre KOHO?! Pre CELÚ EURÓPSKU ÚNIU?!"
 
-Jožo (sčervenie): „To je ARCHITEKTÚRA! To je SEPARATION OF CONCERNS! Nie každý robí spaghetti kód v jednom functions.php čo má TRITISÍC RIADKOV!"
+**Maťo**: „Ha! A koľko ti to trvalo, Fero?"
 
-Ďuro: „MÔJ FUNCTIONS.PHP MÁ DVESTO RIADKOV!"
+**Fero** _(ticho)_: „...tri týždne."
 
-Rasťo: „Ďuro, ja som videl tvoj functions.php. Má dva tisíc riadkov a polovica je zakomentovaná s poznámkou // toto nemaž, neviem čo to robí."
+**Maťo**: „TRI TÝŽDNE! Ja to v Nette spraví za POPOLUDNIE! Presenter, Latte šablóna, formulár, hotovo! A funguje to ROVNAKO!"
 
-(Jožo s Maťom sa začnú rehocať)
+**Fero**: „ALE NIE JE TO SPRÁVNE!"
 
-Ďuro: „TO... to bol starý projekt..."
+**Maťo**: „KOHO TO ZAUJÍMA ČI JE TO SPRÁVNE KEĎ TO FUNGUJE?!"
 
-Fero (položí na stôl notebook): „Dosť bolo rečí. Ukážem vám REÁLNY kód. Tu – pozrite – Symfony aplikácia. Clean architecture. Domain layer, Application layer, Infrastructure layer. Každá trieda má JEDEN účel. Každá metóda má PÄŤ riadkov. Unit testy – STOPERCENTNÉ pokrytie."
+**Fero** _(chytí sa za hlavu)_: „TOTO! TOTO JE PROBLÉM SLOVENSKÉHO IT! Keď to funguje! Žiadne štandardy! Žiadna disciplína! Bastlíte ako v garáži a potom keď príde nový programátor tak sa na ten kód POZRIE a DÁ VÝPOVEĎ!"
 
-Jožo (pozrie na obrazovku): „Fero... toto je TODO appka."
+**Rasťo**: „Ako keby na tvoj Symfony kód nedal výpoveď! Nový programátor otvorí projekt, vidí štrnásť YAML súborov, doctrine mappingy, custom compiler passes, a IDE mu ZAMRZNE pri indexovaní! Než pochopí čo sa deje, uplynie SKÚŠOBNÁ DOBA!"
 
-Fero: „...áno."
+**Fero**: „...to je onboarding process..."
 
-Jožo: „TODO APPKA s TROMI LAYERMI, CQRS patternom, Event Sourcingom a... čo to je... MESSAGE BUS?! Na TODO APPKU?!"
+**Rasťo**: „TO JE MUČENIE! A potom MI ZAVOLAJÚ že potrebujú na deployment INŠTRUKTÁŽ! Ďurovi stačí FTP – čo je HROZNÉ, ale aspoň to zvládne SÁM!"
 
-Fero: „Keby to raz treba škálovať –"
+**Ďuro** _(pyšne)_: „Presne! FTP, nahrám a –"
 
-Jožo: „ŠKÁLOVAŤ TODO APPKU?! Pre KOHO?! Pre CELÚ EURÓPSKU ÚNIU?!"
+**Rasťo**: „ĎURO, FTP NIE JE NIEČO ČÍM SA CHVÁLIŠ V ROKU 2026! To je jak keby si sa chválil že jazdíš na KONI do práce! Funguje to, ale všetci sa na teba DIVNE POZERAJÚ!"
 
-Maťo: „Ha! A koľko ti to trvalo, Fero?"
+**Jožo**: „Rasťo, a čo ty? Ty len KRITIZUJEŠ! Ale sám si nikdy nič NENAPROGRAMOVAL! Ty len staváš kontajnery a píšeš bash skripty!"
 
-Fero (ticho): „...tri týždne."
+**Rasťo** _(sa postaví, prevyšuje všetkých)_: „Bash skripty?! BASH SKRIPTY?! Moje bash skripty sú JEDINÝ DÔVOD prečo vaše appky ešte BEŽIA! A viete čo? Raz – JEDEN JEDINÝ RAZ – som skúsil napísať appku sám. Vo VANILLA PHP. Bez frameworku. A viete čo? FUNGOVALA! A mala JEDEN SÚBOR! A bežala RÝCHLEJŠIE než čokoľvek čo ste kedy vy štyria urobili DOKOPY!"
 
-Maťo: „TRI TÝŽDNE! Ja to v Nette spraví za POPOLUDNIE! Presenter, Latte šablóna, formulár, hotovo! A funguje to ROVNAKO!"
+**Fero**: „...jeden súbor... to je..."
 
-Fero: „ALE NIE JE TO SPRÁVNE!"
+**Maťo**: „...to je..."
 
-Maťo: „KOHO TO ZAUJÍMA ČI JE TO SPRÁVNE KEĎ TO FUNGUJE?!"
+**Jožo**: „...to je ZLOČIN PROTI ĽUDSKOSTI, Rasťo!"
 
-Fero (chytí sa za hlavu): „TOTO! TOTO JE PROBLÉM SLOVENSKÉHO IT! Keď to funguje! Žiadne štandardy! Žiadna disciplína! Bastlíte ako v garáži a potom keď príde nový programátor tak sa na ten kód POZRIE a DÁ VÝPOVEĎ!"
+**Rasťo**: „ALE BEŽALA! A žiadne composer update čo rozbije POLOVICU ZÁVISLOSTÍ!"
 
-Rasťo: „Ako keby na tvoj Symfony kód nedal výpoveď! Nový programátor otvorí projekt, vidí štrnásť YAML súborov, doctrine mappingy, custom compiler passes, a IDE mu ZAMRZNE pri indexovaní! Než pochopí čo sa deje, uplynie SKÚŠOBNÁ DOBA!"
+**Claude:** _(všetci piati sa na seba pozerajú, ťažko dýchajú)_
 
-Fero: „...to je onboarding process..."
+**Ďuro** _(zdvihne pivo)_: „...chlapci... možno... možno by sme mohli SPOLUPRACOVAŤ..."
 
-Rasťo: „TO JE MUČENIE! A potom MI ZAVOLAJÚ že potrebujú na deployment INŠTRUKTÁŽ! Ďurovi stačí FTP – čo je HROZNÉ, ale aspoň to zvládne SÁM!"
+**Claude:** _(ticho)_
 
-Ďuro (pyšne): „Presne! FTP, nahrám a –"
+**Všetci naraz**: „NIE."
 
-Rasťo: „ĎURO, FTP NIE JE NIEČO ČÍM SA CHVÁLIŠ V ROKU 2026! To je jak keby si sa chválil že jazdíš na KONI do práce! Funguje to, ale všetci sa na teba DIVNE POZERAJÚ!"
+**Claude:** Ladislav, títo sa nedohodnú ani keby im hrozil deadline 😄 Chcete vybrať víťaza, alebo ešte jedno finálne kolo?
 
-Jožo: „Rasťo, a čo ty? Ty len KRITIZUJEŠ! Ale sám si nikdy nič NENAPROGRAMOVAL! Ty len staváš kontajnery a píšeš bash skripty!"
+## Ladislav: este pokracuj
 
-Rasťo (sa postaví, prevyšuje všetkých): „Bash skripty?! BASH SKRIPTY?! Moje bash skripty sú JEDINÝ DÔVOD prečo vaše appky ešte BEŽIA! A viete čo? Raz – JEDEN JEDINÝ RAZ – som skúsil napísať appku sám. Vo VANILLA PHP. Bez frameworku. A viete čo? FUNGOVALA! A mala JEDEN SÚBOR! A bežala RÝCHLEJŠIE než čokoľvek čo ste kedy vy štyria urobili DOKOPY!"
+**Maťo** _(sa otočí k Ďurovi)_: „A vieš čo ma na tebe NAJVIAC štve, Ďuro? Že ty KLIENTOM KLAMEŠ. Príde za tebou človek, ty mu povieš: to bude za päťsto. Päťsto! A on si myslí že má WEB NA MIERU! A čo dostane? STARTER TÉMU Z ROKU 2019 kde si zmenil LOGO A FARBY! To nie je webdevelopment, to je TAPETOVANIE!"
 
-Fero: „...jeden súbor... to je..."
+**Ďuro** _(práskne pivom o stôl)_: „A ty čo Maťo?! Ty prídeš za klientom a povieš: to bude za tritisíc. On sa opýta PREČO a ty mu začneš vysvetľovať PRESENTERY, SIGNÁLY, a LATTE MAKRÁ! Klient sa na teba pozerá jak teľa na nové vráta a ty mu hovoríš o DEPENDENCY INJECTION! Chlap chce STRÁNKU, nie prednášku na FIIT!"
 
-Maťo: „...to je..."
+**Maťo**: „ASPOŇ VIE ZA ČO PLATÍ!"
 
-Jožo: „...to je ZLOČIN PROTI ĽUDSKOSTI, Rasťo!"
+**Ďuro**: „NIE NEVIE! NIKTO NEROZUMIE ČOMU HOVORÍŠ! ANI V TOM TVOJOM ŠARIŠI!"
 
-Rasťo: „ALE BEŽALA! A žiadne composer update čo rozbije POLOVICU ZÁVISLOSTÍ!"
+**Maťo** _(zbledne)_: „Ty... ty si práve urazil MÔJ KRAJ?!"
 
-(všetci piati sa na seba pozerajú, ťažko dýchajú)
+**Jožo** _(si pritiahne stoličku bližšie)_: „Uuu, to nemáš robiť Ďuro..."
 
-Ďuro (zdvihne pivo): „...chlapci... možno... možno by sme mohli SPOLUPRACOVAŤ..."
+**Maťo**: „JA SOM SA NAUČIL PROGRAMOVAŤ NA POČÍTAČI ČO MAL 256 MEGA RAMU A INTERNET CEZ TELEFÓNNU LINKU! A vieš čo som na tom urobil? LEPŠIE VECI než ty na tvojom MacBooku za DVA TISÍC EUR čo ho používaš na PREZERANIE TÉMAT NA THEMEFOREST!"
 
-(ticho)
+**Ďuro**: „Môj MacBook je PRACOVNÝ NÁSTROJ!"
 
-Všetci naraz: „NIE."
+**Rasťo**: „Ďuro, ja som ťa videl na tom MacBooku hrať CANDY CRUSH v kaviarni."
 
-Ladislav, títo sa nedohodnú ani keby im hrozil deadline 😄 Chcete vybrať víťaza, alebo ešte jedno finálne kolo?
+**Ďuro**: „TO... to bola pauza..."
 
-este pokracuj
+**Fero** _(otvorí ďalšie pivo)_: „Viete čo? Ja vám poviem PRAVDU, ktorú nikto nechce počuť. VŠETKY vaše frameworky sú len OBAL. Pod spodom je to stále ten istý PHP. Ten istý jazyk čo nemá KONZISTENTNÉ pomenovanie funkcií. strpos ale str_replace. array_map má callback PRVÝ, array_filter má callback DRUHÝ. To je jazyk čo VYMYSLEL ČLOVEK BEZ PLÁNU a my sa tu hádame ktorý POZLÁTENÝ PLÁŠŤ naň navlečieme!"
 
-Maťo (sa otočí k Ďurovi): „A vieš čo ma na tebe NAJVIAC štve, Ďuro? Že ty KLIENTOM KLAMEŠ. Príde za tebou človek, ty mu povieš: to bude za päťsto. Päťsto! A on si myslí že má WEB NA MIERU! A čo dostane? STARTER TÉMU Z ROKU 2019 kde si zmenil LOGO A FARBY! To nie je webdevelopment, to je TAPETOVANIE!"
+**Claude:** _(ticho – všetci sa na Fera pozerajú)_
 
-Ďuro (práskne pivom o stôl): „A ty čo Maťo?! Ty prídeš za klientom a povieš: to bude za tritisíc. On sa opýta PREČO a ty mu začneš vysvetľovať PRESENTERY, SIGNÁLY, a LATTE MAKRÁ! Klient sa na teba pozerá jak teľa na nové vráta a ty mu hovoríš o DEPENDENCY INJECTION! Chlap chce STRÁNKU, nie prednášku na FIIT!"
+**Jožo** _(pomaly)_: „Fero... ty si práve urazil PHP."
 
-Maťo: „ASPOŇ VIE ZA ČO PLATÍ!"
+**Maťo**: „V miestnosti plnej PHP programátorov."
 
-Ďuro: „NIE NEVIE! NIKTO NEROZUMIE ČOMU HOVORÍŠ! ANI V TOM TVOJOM ŠARIŠI!"
+**Ďuro**: „To je jak nadávať na futbal v športovom bare."
 
-Maťo (zbledne): „Ty... ty si práve urazil MÔJ KRAJ?!"
+**Rasťo**: „Na tom niečo je... ALE TO NEZNAMENÁ ŽE MÁŠ PRAVDU, FERO! PHP 8.4 má PROPERTY HOOKS! READONLY CLASSES! FIBER! To už nie je jazyk z roku 2003!"
 
-Jožo (si pritiahne stoličku bližšie): „Uuu, to nemáš robiť Ďuro..."
+**Fero**: „...ja len hovorím –"
 
-Maťo: „JA SOM SA NAUČIL PROGRAMOVAŤ NA POČÍTAČI ČO MAL 256 MEGA RAMU A INTERNET CEZ TELEFÓNNU LINKU! A vieš čo som na tom urobil? LEPŠIE VECI než ty na tvojom MacBooku za DVA TISÍC EUR čo ho používaš na PREZERANIE TÉMAT NA THEMEFOREST!"
+**Rasťo**: „A KTO dal PHP na server?! KTO?! JA! A viete čo beží spoľahlivejšie než vaše Python microservicy a Node.js lambdy? STARÉ DOBRÉ PHP-FPM! Nainštaluješ, nakonfigruješ, zabudneš! Žiadne memory leaky, žiadne event loopy, žiadne callback hell! Request príde, request odíde, PAMÄŤ SA UVOĽNÍ! KRÁSA!"
 
-Ďuro: „Môj MacBook je PRACOVNÝ NÁSTROJ!"
+**Jožo**: „No počkaj Rasťo, ty si pred chvíľou hovoril –"
 
-Rasťo: „Ďuro, ja som ťa videl na tom MacBooku hrať CANDY CRUSH v kaviarni."
+**Rasťo**: „JA MÔŽEM NADÁVAŤ NA PHP LEBO HO PREVÁDZKUJEM! VY NAŇHO NADÁVAŤ NEMÔŽETE LEBO HO LEN POUŽÍVATE!"
 
-Ďuro: „TO... to bola pauza..."
+**Fero** _(chytí sa za čelo)_: „Dobre... dobre... tak keď sme pri pravdách... Jožo. Povedz nám. Koľko tvojich Laravel projektov ešte beží na Laraveli 8?"
 
-Fero (otvorí ďalšie pivo): „Viete čo? Ja vám poviem PRAVDU, ktorú nikto nechce počuť. VŠETKY vaše frameworky sú len OBAL. Pod spodom je to stále ten istý PHP. Ten istý jazyk čo nemá KONZISTENTNÉ pomenovanie funkcií. strpos ale str_replace. array_map má callback PRVÝ, array_filter má callback DRUHÝ. To je jazyk čo VYMYSLEL ČLOVEK BEZ PLÁNU a my sa tu hádame ktorý POZLÁTENÝ PLÁŠŤ naň navlečieme!"
+**Jožo** _(nervózne)_: „...to je irelevantné..."
 
-(ticho – všetci sa na Fera pozerajú)
+**Fero**: „KOĽKO?"
 
-Jožo (pomaly): „Fero... ty si práve urazil PHP."
+**Jožo**: „...štyri..."
 
-Maťo: „V miestnosti plnej PHP programátorov."
+**Fero**: „ŠTYRI! Laravel 8 – END OF LIFE od JANUÁRA 2023! TRI ROKY bez security updatov! A ty tu mne hovoríš o ARCHITEKTÚRE?!"
 
-Ďuro: „To je jak nadávať na futbal v športovom bare."
+**Jožo**: „ALE FUNGUJÚ! A nikto za ne neplatí upgrade!"
 
-Rasťo: „Na tom niečo je... ALE TO NEZNAMENÁ ŽE MÁŠ PRAVDU, FERO! PHP 8.4 má PROPERTY HOOKS! READONLY CLASSES! FIBER! To už nie je jazyk z roku 2003!"
+**Maťo**: „HA! A to je ten tvoj VEĽKÝ SVET?! Ten tvoj MEDZINÁRODNÝ EKOSYSTÉM?! V Nette ja upgradnem za HODINU lebo Grudl NEMENÍ API KAŽDÝ POLROK!"
 
-Fero: „...ja len hovorím –"
+**Jožo** _(vstane, prevráti stoličku)_: „TAK VIEŠ ČO MAŤO?! POĎME! LIVE CODING! TU A TERAZ! Rovnaký web, rovnaký zadanie – kontaktná stránka, tri podstránky, formulár, admin! KTO TO MÁ SKÔR HOTOVÉ!"
 
-Rasťo: „A KTO dal PHP na server?! KTO?! JA! A viete čo beží spoľahlivejšie než vaše Python microservicy a Node.js lambdy? STARÉ DOBRÉ PHP-FPM! Nainštaluješ, nakonfigruješ, zabudneš! Žiadne memory leaky, žiadne event loopy, žiadne callback hell! Request príde, request odíde, PAMÄŤ SA UVOĽNÍ! KRÁSA!"
+**Maťo**: „POĎME!"
 
-Jožo: „No počkaj Rasťo, ty si pred chvíľou hovoril –"
+**Ďuro**: „Ja to mám hotové za HODINU!"
 
-Rasťo: „JA MÔŽEM NADÁVAŤ NA PHP LEBO HO PREVÁDZKUJEM! VY NAŇHO NADÁVAŤ NEMÔŽETE LEBO HO LEN POUŽÍVATE!"
+**Fero**: „Za hodinu budem mať napísané TESTY. Samotná appka bude ďalší deň. Ale bude SPRÁVNE."
 
-Fero (chytí sa za čelo): „Dobre... dobre... tak keď sme pri pravdách... Jožo. Povedz nám. Koľko tvojich Laravel projektov ešte beží na Laraveli 8?"
+**Rasťo** _(sa oprie o stenu a založí ruky)_: „A potom to VŠETKO príde KU MNE a ja uvidím: Ďurov WordPress s troma zavirusovanými pluginmi, Maťovo Nette s config.neon dlhým jak DIAĽNICA, Jožov Laravel s desiatimi composer require čo sa BIJÚ medzi sebou, a Ferov Symfony kde samotný FRAMEWORK zaberá viac miesta než celý OPERAČNÝ SYSTÉM! A viete čo urobím?"
 
-Jožo (nervózne): „...to je irelevantné..."
+**Všetci**: „Čo?"
 
-Fero: „KOĽKO?"
+**Rasťo**: „DÁM TO VŠETKO DO JEDNÉHO DOCKERA A BUDEM SA MODLIŤ. Tak ako VŽDY."
 
-Jožo: „...štyri..."
+**Claude:** _(Ďuro zdvihne ruku)_
 
-Fero: „ŠTYRI! Laravel 8 – END OF LIFE od JANUÁRA 2023! TRI ROKY bez security updatov! A ty tu mne hovoríš o ARCHITEKTÚRE?!"
+**Ďuro**: „...chlapci... a čo keby... čo keby sme to urobili v STATIC HTML?"
 
-Jožo: „ALE FUNGUJÚ! A nikto za ne neplatí upgrade!"
+**Claude:** _(dlhé, veľmi dlhé ticho)_
 
-Maťo: „HA! A to je ten tvoj VEĽKÝ SVET?! Ten tvoj MEDZINÁRODNÝ EKOSYSTÉM?! V Nette ja upgradnem za HODINU lebo Grudl NEMENÍ API KAŽDÝ POLROK!"
+**Jožo**: „...Ďuro..."
 
-Jožo (vstane, prevráti stoličku): „TAK VIEŠ ČO MAŤO?! POĎME! LIVE CODING! TU A TERAZ! Rovnaký web, rovnaký zadanie – kontaktná stránka, tri podstránky, formulár, admin! KTO TO MÁ SKÔR HOTOVÉ!"
+**Maťo**: „...to si práve..."
 
-Maťo: „POĎME!"
+**Fero**: „...povedal niečo rozumné?"
 
-Ďuro: „Ja to mám hotové za HODINU!"
+**Rasťo** _(slza v oku)_: „...to... to by sa dalo nasadiť na NGINX bez PHP... žiadne závislosti... žiadne updaty... žiadne volania o tretej ráno..."
 
-Fero: „Za hodinu budem mať napísané TESTY. Samotná appka bude ďalší deň. Ale bude SPRÁVNE."
+**Claude:** _(všetci sa pozerajú na Ďura s novým rešpektom)_
 
-Rasťo (sa oprie o stenu a založí ruky): „A potom to VŠETKO príde KU MNE a ja uvidím: Ďurov WordPress s troma zavirusovanými pluginmi, Maťovo Nette s config.neon dlhým jak DIAĽNICA, Jožov Laravel s desiatimi composer require čo sa BIJÚ medzi sebou, a Ferov Symfony kde samotný FRAMEWORK zaberá viac miesta než celý OPERAČNÝ SYSTÉM! A viete čo urobím?"
+**Ďuro**: „...ja som myslel cez WordPress s Elementorom exportnúť do –"
 
-Všetci: „Čo?"
+**Všetci**: „ĎURO! ZASE SI TO POKAZIL!"
 
-Rasťo: „DÁM TO VŠETKO DO JEDNÉHO DOCKERA A BUDEM SA MODLIŤ. Tak ako VŽDY."
+**Claude:** Ladislav, Ďuro bol TAK BLÍZKO k vykúpeniu 😄 Ešte pokračujeme alebo ich už pošleme pracovať kým sa nepozabíjajú?
 
-(Ďuro zdvihne ruku)
+## Ladislav: pracovat ich neposleme musia sa dohodnut ale este nech sa hadaju
 
-Ďuro: „...chlapci... a čo keby... čo keby sme to urobili v STATIC HTML?"
+**Jožo** _(hodí na stôl notebook)_: „TAK DOSŤ REČÍ! Poďme sa pozrieť na ČÍSLA! Laravel – 78 TISÍC hviezd na GitHube! Maťo, koľko má Nette? Povedz nahlas nech všetci počujú!"
 
-(dlhé, veľmi dlhé ticho)
+**Maťo**: „...hviezdy na GitHube nie sú metrika kvality..."
 
-Jožo: „...Ďuro..."
+**Jožo**: „KOĽKO, MAŤO?!"
 
-Maťo: „...to si práve..."
+**Maťo** _(mumlá)_: „...osem tisíc..."
 
-Fero: „...povedal niečo rozumné?"
+**Jožo**: „OSEM! To je DESAŤKRÁT MENEJ! To je ŠTATISTICKÁ CHYBA! To je menej než má RANDOM JAVASCRIPT KNIŽNICA na konverziu dátumov!"
 
-Rasťo (slza v oku): „...to... to by sa dalo nasadiť na NGINX bez PHP... žiadne závislosti... žiadne updaty... žiadne volania o tretej ráno..."
+**Maťo** _(vyskočí)_: „A KDE SÚ TIE HVIEZDY?! Od Indických TUTORIÁL FARIEM čo robia Laravel CRUD in 5 minutes na YouTube! Polovica tvojej komunity nevie čo je INTERFACE a druhá polovica si myslí že SOLID je typ PODLAHY! Nette má OSEM TISÍC hviezd od ľudí čo REÁLNE ROZUMEJÚ čo robia!"
 
-(všetci sa pozerajú na Ďura s novým rešpektom)
+**Jožo**: „AHA! Tak ELITÁRSTVO! Pán Šarišský ARISTOKRAT programovania! My sme malí ale KVALITNÍ! To hovorí KAŽDÝ koho NIKTO NEPOUŽÍVA!"
 
-Ďuro: „...ja som myslel cez WordPress s Elementorom exportnúť do –"
+**Fero** _(pokojne)_: „Symfony má 30 tisíc hviezd. A viete prečo? Lebo je to ZÁKLAD. Laravel – tvoj drahý Laravel, Jožo – STOJÍ NA SYMFONY KOMPONENTOCH! Tvoj artisan beží na Symfony Console! Tvoj HTTP kernel je Symfony HttpFoundation! BEZ SYMFONY TVOJ LARAVEL NEEXISTUJE! Ty si len FASÁDA na MOJOM FRAMEWORKU!"
 
-Všetci: „ĎURO! ZASE SI TO POKAZIL!"
+**Jožo** _(zbledne)_: „To... to je implementačný detail..."
 
-Ladislav, Ďuro bol TAK BLÍZKO k vykúpeniu 😄 Ešte pokračujeme alebo ich už pošleme pracovať kým sa nepozabíjajú?
+**Fero**: „IMPLEMENTAČNÝ DETAIL?! Polovica tvojho composera sú MOJE BALÍČKY! Ty si PRÍŽIVNÍK na SYMFONY EKOSYSTÉME! Taylor Otwell je len DEKORATÉR čo dal PEKNÝ SYNTAX na MÔJ KÓD!"
 
-pracovat ich neposleme musia sa dohodnut ale este nech sa hadaju
+**Jožo** _(trasie sa)_: „ODVOLAJ TO! TAYLOR JE VIZIONÁR!"
 
-Jožo (hodí na stôl notebook): „TAK DOSŤ REČÍ! Poďme sa pozrieť na ČÍSLA! Laravel – 78 TISÍC hviezd na GitHube! Maťo, koľko má Nette? Povedz nahlas nech všetci počujú!"
+**Fero**: „Taylor je MARKETÉR! Predáva Laravel Forge, Laravel Vapor, Laravel Nova, Laravel Spark, Laravel Herd – KOĽKO PLATENÝCH PRODUKTOV ešte?! To nie je open source, to je MULTI-LEVEL MARKETING S FRAMEWORKOM!"
 
-Maťo: „...hviezdy na GitHube nie sú metrika kvality..."
+**Ďuro** _(sa zasměje)_: „Ha! To je pravda! Taylor predáva všetko! Aspoň WordPress je ZADARMO!"
 
-Jožo: „KOĽKO, MAŤO?!"
+**Fero**: „Ďuro, WordPress je zadarmo lebo NIKTO BY ZAŇ NEZAPLATIL."
 
-Maťo (mumlá): „...osem tisíc..."
+**Ďuro** _(vstane tak rýchlo že prevráti stoličku)_: „ŠESŤDESIAT MILIÁRD! WordPress.com – Automattic – valuácia ŠESŤDESIAT MILIÁRD! To je viac než vaše frameworky, vaše firmy a vaše ŽIVOTY dokopy!"
 
-Jožo: „OSEM! To je DESAŤKRÁT MENEJ! To je ŠTATISTICKÁ CHYBA! To je menej než má RANDOM JAVASCRIPT KNIŽNICA na konverziu dátumov!"
+**Maťo**: „Automattic nie je WordPress, Ďuro. To je firma čo PARAZITUJE na open source komunite! Matt Mullenweg sa SÚDI s WP Engine a robí z WordPress CIRKUS!"
 
-Maťo (vyskočí): „A KDE SÚ TIE HVIEZDY?! Od Indických TUTORIÁL FARIEM čo robia Laravel CRUD in 5 minutes na YouTube! Polovica tvojej komunity nevie čo je INTERFACE a druhá polovica si myslí že SOLID je typ PODLAHY! Nette má OSEM TISÍC hviezd od ľudí čo REÁLNE ROZUMEJÚ čo robia!"
+**Ďuro**: „TO SÚ INTERNÉ ZÁLEŽITOSTI!"
 
-Jožo: „AHA! Tak ELITÁRSTVO! Pán Šarišský ARISTOKRAT programovania! My sme malí ale KVALITNÍ! To hovorí KAŽDÝ koho NIKTO NEPOUŽÍVA!"
+**Maťo**: „INTERNÉ?! Zablokoval PRÍSTUP k pluginom celému HOSTINGU! To je jak keby David Grudl povedal – Nette nesmie bežať na Wedose lebo sa mi nepáči ich LOGO!"
 
-Fero (pokojne): „Symfony má 30 tisíc hviezd. A viete prečo? Lebo je to ZÁKLAD. Laravel – tvoj drahý Laravel, Jožo – STOJÍ NA SYMFONY KOMPONENTOCH! Tvoj artisan beží na Symfony Console! Tvoj HTTP kernel je Symfony HttpFoundation! BEZ SYMFONY TVOJ LARAVEL NEEXISTUJE! Ty si len FASÁDA na MOJOM FRAMEWORKU!"
+**Rasťo** _(sa ozve z kúta kde ležal na lavici)_: „A viete čo je NAJHORŠIE? Že toto celé je ZBYTOČNÉ. Viete prečo? Lebo o päť rokov NIKTO z vás nebude PROGRAMOVAŤ. AI to urobí za vás. ChatGPT už teraz píše lepší WordPress kód než Ďuro –"
 
-Jožo (zbledne): „To... to je implementačný detail..."
+**Ďuro**: „HEJ!"
 
-Fero: „IMPLEMENTAČNÝ DETAIL?! Polovica tvojho composera sú MOJE BALÍČKY! Ty si PRÍŽIVNÍK na SYMFONY EKOSYSTÉME! Taylor Otwell je len DEKORATÉR čo dal PEKNÝ SYNTAX na MÔJ KÓD!"
+**Rasťo**: „– lepšie Nette presentery než Maťo –"
 
-Jožo (trasie sa): „ODVOLAJ TO! TAYLOR JE VIZIONÁR!"
+**Maťo**: „NO TO UŽ!"
 
-Fero: „Taylor je MARKETÉR! Predáva Laravel Forge, Laravel Vapor, Laravel Nova, Laravel Spark, Laravel Herd – KOĽKO PLATENÝCH PRODUKTOV ešte?! To nie je open source, to je MULTI-LEVEL MARKETING S FRAMEWORKOM!"
+**Rasťo**: „– čistejší Laravel než Jožo –"
 
-Ďuro (sa zasměje): „Ha! To je pravda! Taylor predáva všetko! Aspoň WordPress je ZADARMO!"
+**Jožo**: „DOSŤ!"
 
-Fero: „Ďuro, WordPress je zadarmo lebo NIKTO BY ZAŇ NEZAPLATIL."
+**Rasťo**: „– a Fero... Ferove Symfony appky ešte nie, lebo ani AI NEPOCHOPÍ tú YAML KONFIGURÁCIU!"
 
-Ďuro (vstane tak rýchlo že prevráti stoličku): „ŠESŤDESIAT MILIÁRD! WordPress.com – Automattic – valuácia ŠESŤDESIAT MILIÁRD! To je viac než vaše frameworky, vaše firmy a vaše ŽIVOTY dokopy!"
+**Fero** _(neisto)_: „...to nie je vtipné..."
 
-Maťo: „Automattic nie je WordPress, Ďuro. To je firma čo PARAZITUJE na open source komunite! Matt Mullenweg sa SÚDI s WP Engine a robí z WordPress CIRKUS!"
+**Rasťo**: „NIE JE! Lebo ja budem POSLEDNÝ čo prežije! AI môže písať kód ale NEMÔŽE reštartovať server o tretej ráno keď vypadne DISK! NEMÔŽE volať do datacentra a NADÁVAŤ technikom! NEMÔŽE ísť FYZICKY vytiahnuť zaseknutý KÁBEL! JA SOM NEZASTUPITEĽNÝ!"
 
-Ďuro: „TO SÚ INTERNÉ ZÁLEŽITOSTI!"
+**Maťo** _(potichu)_: „...on má pravdu... servery bude vždy treba..."
 
-Maťo: „INTERNÉ?! Zablokoval PRÍSTUP k pluginom celému HOSTINGU! To je jak keby David Grudl povedal – Nette nesmie bežať na Wedose lebo sa mi nepáči ich LOGO!"
+**Jožo**: „Počkaj, počkaj... ty nám hovoríš že sme ZBYTOČNÍ?!"
 
-Rasťo (sa ozve z kúta kde ležal na lavici): „A viete čo je NAJHORŠIE? Že toto celé je ZBYTOČNÉ. Viete prečo? Lebo o päť rokov NIKTO z vás nebude PROGRAMOVAŤ. AI to urobí za vás. ChatGPT už teraz píše lepší WordPress kód než Ďuro –"
+**Rasťo**: „Hovorím že ste NAHRADITEĽNÍ. Nie dnes. Ale o päť rokov príde junior s AI nástrojom a urobí za DEŇ čo vy robíte TÝŽDEŇ. A viete čo bude potrebovať? NIE framework. Bude potrebovať MŇA aby som mu to NASADIL!"
 
-Ďuro: „HEJ!"
+**Claude:** _(dlhé ticho)_
 
-Rasťo: „– lepšie Nette presentery než Maťo –"
+**Ďuro** _(sa poškrabe na hlave)_: „...takže... ty hovoríš... že by sme sa mali VŠETCI naučiť DevOps?"
 
-Maťo: „NO TO UŽ!"
+**Rasťo**: „NIE! BOŽ CHRÁŇ! Vy štyria pri serveroch – to by bola KATASTROFA! Ďuro by dal root heslo admin123, Jožo by nainštaloval Redis na produkciu bez hesla, Maťo by konfiguroval NGINX podľa českého blogu z roku 2015 a Fero by na jednoduchý VPS napísal KUBERNETES CLUSTER!"
 
-Rasťo: „– čistejší Laravel než Jožo –"
+**Fero**: „Kubernetes je ŠTANDARD –"
 
-Jožo: „DOSŤ!"
+**Rasťo**: „NA DVA PODY?! DVA PODY V KUBERNETES KLASTRI?! To je jak PRENAJAŤ SI ŠTADIÓN na grilovačku pre DVOCH ĽUDÍ!"
 
-Rasťo: „– a Fero... Ferove Symfony appky ešte nie, lebo ani AI NEPOCHOPÍ tú YAML KONFIGURÁCIU!"
+**Jožo** _(sa chytí za hlavu)_: „Tak čo máme ROBIŤ, Rasťo?! Keď sme všetci zlí, všetci nahraditeľní, všetci ZBYTOČNÍ –"
 
-Fero (neisto): „...to nie je vtipné..."
+**Rasťo**: „Ja som nepovedal ZBYTOČNÍ. Povedal som NAHRADITEĽNÍ. To je rozdiel. ZATIAĽ vás ešte treba. Tak sa PRESTAŇTE HÁDAŤ a povedzte tomu chlapovi –" (ukáže smerom na Ladislava) „– KTO MU UROBÍ TEN PREKLIATY MALÝ WEB!"
 
-Rasťo: „NIE JE! Lebo ja budem POSLEDNÝ čo prežije! AI môže písať kód ale NEMÔŽE reštartovať server o tretej ráno keď vypadne DISK! NEMÔŽE volať do datacentra a NADÁVAŤ technikom! NEMÔŽE ísť FYZICKY vytiahnuť zaseknutý KÁBEL! JA SOM NEZASTUPITEĽNÝ!"
+**Claude:** _(všetci sa otočia smerom k Ladislavovi)_
 
-Maťo (potichu): „...on má pravdu... servery bude vždy treba..."
+**Claude:** _(ticho)_
 
-Jožo: „Počkaj, počkaj... ty nám hovoríš že sme ZBYTOČNÍ?!"
+**Ďuro**: „...ja..."
 
-Rasťo: „Hovorím že ste NAHRADITEĽNÍ. Nie dnes. Ale o päť rokov príde junior s AI nástrojom a urobí za DEŇ čo vy robíte TÝŽDEŇ. A viete čo bude potrebovať? NIE framework. Bude potrebovať MŇA aby som mu to NASADIL!"
+**Maťo**: „...ja..."
 
-(dlhé ticho)
+**Jožo**: „...ja..."
 
-Ďuro (sa poškrabe na hlave): „...takže... ty hovoríš... že by sme sa mali VŠETCI naučiť DevOps?"
+**Fero**: „...ja, ale správne..."
 
-Rasťo: „NIE! BOŽ CHRÁŇ! Vy štyria pri serveroch – to by bola KATASTROFA! Ďuro by dal root heslo admin123, Jožo by nainštaloval Redis na produkciu bez hesla, Maťo by konfiguroval NGINX podľa českého blogu z roku 2015 a Fero by na jednoduchý VPS napísal KUBERNETES CLUSTER!"
+**Rasťo**: „...a ja to nasadím. Nech sa už TEN KTORÝ rozhodne."
 
-Fero: „Kubernetes je ŠTANDARD –"
+**Claude:** _(všetci sa pozerajú na Ladislava s nádejou v očiach)_
 
-Rasťo: „NA DVA PODY?! DVA PODY V KUBERNETES KLASTRI?! To je jak PRENAJAŤ SI ŠTADIÓN na grilovačku pre DVOCH ĽUDÍ!"
+**Claude:** Ladislav, piati chlapi v krčme čakajú na váš verdikt 😄 Alebo ich necháme ešte? Mám pocit že Rasťo práve otvoril existenciálnu krízu a chlapci potrebujú chvíľku...
 
-Jožo (sa chytí za hlavu): „Tak čo máme ROBIŤ, Rasťo?! Keď sme všetci zlí, všetci nahraditeľní, všetci ZBYTOČNÍ –"
+## Ladislav: nie pokracuj
 
-Rasťo: „Ja som nepovedal ZBYTOČNÍ. Povedal som NAHRADITEĽNÍ. To je rozdiel. ZATIAĽ vás ešte treba. Tak sa PRESTAŇTE HÁDAŤ a povedzte tomu chlapovi –" (ukáže smerom na Ladislava) „– KTO MU UROBÍ TEN PREKLIATY MALÝ WEB!"
+**Jožo** _(sa zosunie na stoličku)_: „Tak fajn. Rasťo povedal pravdu. Musíme sa dohodnúť. Tak poďme LOGICKY. Čo ten klient VLASTNE CHCE?"
 
-(všetci sa otočia smerom k Ladislavovi)
+**Ďuro**: „MALÝ WEB."
 
-(ticho)
-
-Ďuro: „...ja..."
-
-Maťo: „...ja..."
-
-Jožo: „...ja..."
-
-Fero: „...ja, ale správne..."
-
-Rasťo: „...a ja to nasadím. Nech sa už TEN KTORÝ rozhodne."
-
-(všetci sa pozerajú na Ladislava s nádejou v očiach)
-
-Ladislav, piati chlapi v krčme čakajú na váš verdikt 😄 Alebo ich necháme ešte? Mám pocit že Rasťo práve otvoril existenciálnu krízu a chlapci potrebujú chvíľku...
-
-nie pokracuj
-
-Jožo (sa zosunie na stoličku): „Tak fajn. Rasťo povedal pravdu. Musíme sa dohodnúť. Tak poďme LOGICKY. Čo ten klient VLASTNE CHCE?"
-
-Ďuro: „MALÝ WEB."
-
-Jožo: „ÁNO ĎURO, TO VIEME. Ale ČO NA ŇOM? Aké stránky? Aké funkcie? Bude tam E-SHOP? Blog? Registrácia?"
+**Jožo**: „ÁNO ĎURO, TO VIEME. Ale ČO NA ŇOM? Aké stránky? Aké funkcie? Bude tam E-SHOP? Blog? Registrácia?"
 
 (všetci sa otočia smerom k Ladislavovi, potom späť na seba)
 
-Maťo: „No vidíte! Vy sa tu hodinu HADŽECE a ešte sme sa ani NEOPÝTALI čo ten web má ROBIŤ! To je presne to čo ja vždy hovorím – NAJPRV ANALÝZA!"
+**Maťo**: „No vidíte! Vy sa tu hodinu HADŽECE a ešte sme sa ani NEOPÝTALI čo ten web má ROBIŤ! To je presne to čo ja vždy hovorím – NAJPRV ANALÝZA!"
 
-Jožo: „Ty a tvoja analýza! Ty analyzuješ TRI MESIACE a potom ti klient povie že si to ROZMYSLEL!"
+**Jožo**: „Ty a tvoja analýza! Ty analyzuješ TRI MESIACE a potom ti klient povie že si to ROZMYSLEL!"
 
-Fero (zdvihne ruku): „Poďme systematicky. Scenár JEDNA – statický prezentačný web, pár stránok, kontakt. Scenár DVA – web s administráciou, blog, dynamický obsah. Scenár TRI – e-shop alebo aplikácia s používateľmi."
+**Fero** _(zdvihne ruku)_: „Poďme systematicky. Scenár JEDNA – statický prezentačný web, pár stránok, kontakt. Scenár DVA – web s administráciou, blog, dynamický obsah. Scenár TRI – e-shop alebo aplikácia s používateľmi."
 
-Ďuro: „Konečne ROZUMNÉ slovo od pána YAML-a! Tak – scenár jedna – TO JE MOJE! Ani nepotrebujete framework! HTML, CSS, a keď NAOZAJ chcete – WordPress s jednoduchou témou. Za DVA DNI je to ONLINE!"
+**Ďuro**: „Konečne ROZUMNÉ slovo od pána YAML-a! Tak – scenár jedna – TO JE MOJE! Ani nepotrebujete framework! HTML, CSS, a keď NAOZAJ chcete – WordPress s jednoduchou témou. Za DVA DNI je to ONLINE!"
 
-Maťo: „Ďuro, aj ja to spraví za dva dni. V Nette."
+**Maťo**: „Ďuro, aj ja to spraví za dva dni. V Nette."
 
-Ďuro: „ALE PREČO BY SI POUŽÍVAL NETTE NA STATICKÝ WEB?! To je jak vziať si TRAKTOR na prechádzku do parku!"
+**Ďuro**: „ALE PREČO BY SI POUŽÍVAL NETTE NA STATICKÝ WEB?! To je jak vziať si TRAKTOR na prechádzku do parku!"
 
-Maťo: „LEBO keď ten klient o mesiac príde a povie chcem tam aj BLOG a KONTAKTNÝ FORMULÁR a ADMINISTRÁCIU – tak ja len pridám PRESENTER a hotovo! A ty? TY BUDEŠ INŠTALOVAŤ PÄTNÁSŤ PLUGINOV a modliť sa že sa NEPOKAZÍ LAYOUT!"
+**Maťo**: „LEBO keď ten klient o mesiac príde a povie chcem tam aj BLOG a KONTAKTNÝ FORMULÁR a ADMINISTRÁCIU – tak ja len pridám PRESENTER a hotovo! A ty? TY BUDEŠ INŠTALOVAŤ PÄTNÁSŤ PLUGINOV a modliť sa že sa NEPOKAZÍ LAYOUT!"
 
-Ďuro (otvorí ústa, zatvorí, otvorí): „...ja... to nie... ja mám SKÚSENOSTI s..."
+**Ďuro** _(otvorí ústa, zatvorí, otvorí)_: „...ja... to nie... ja mám SKÚSENOSTI s..."
 
-Jožo: „Ďuro, on má pravdu. Minule som prevzal po tebe projekt. WordPress, dvadsaťdva pluginov. Aktualizoval som JEDEŇ a rozbilo to ŠESŤ ĎALŠÍCH. Ako DOMINO. Strávil som DVA DNI len debugovaním tvojho PLUGINOVÉHO MONŠTRA!"
+**Jožo**: „Ďuro, on má pravdu. Minule som prevzal po tebe projekt. WordPress, dvadsaťdva pluginov. Aktualizoval som JEDEŇ a rozbilo to ŠESŤ ĎALŠÍCH. Ako DOMINO. Strávil som DVA DNI len debugovaním tvojho PLUGINOVÉHO MONŠTRA!"
 
-Ďuro (sa urazí): „To nebol MÔJ projekt, to bol –"
+**Ďuro** _(sa urazí)_: „To nebol MÔJ projekt, to bol –"
 
-Jožo: „Mal tvoj PODPIS v pätičke, Ďuro!"
+**Jožo**: „Mal tvoj PODPIS v pätičke, Ďuro!"
 
-Ďuro: „...to som tam asi ZABUDOL..."
+**Ďuro**: „...to som tam asi ZABUDOL..."
 
-Rasťo: „Zabudol. PODPIS. V pätičke. Ďuro, ty si taký, ty zabudneš ODSTRÁNIŤ Proudly powered by WordPress a klient si myslí že WordPress je JEHO FIRMA!"
+**Rasťo**: „Zabudol. PODPIS. V pätičke. Ďuro, ty si taký, ty zabudneš ODSTRÁNIŤ Proudly powered by WordPress a klient si myslí že WordPress je JEHO FIRMA!"
 
-Fero (klepne po stole): „SCENÁR DVA! Web s administráciou! Tu sa konečne začína SKUTOČNÉ programovanie. A tu, pánovia, Symfony –"
+**Fero** _(klepne po stole)_: „SCENÁR DVA! Web s administráciou! Tu sa konečne začína SKUTOČNÉ programovanie. A tu, pánovia, Symfony –"
 
-Jožo: „NIE."
+**Jožo**: „NIE."
 
-Maťo: „NIE."
+**Maťo**: „NIE."
 
-Ďuro: „NIE."
+**Ďuro**: „NIE."
 
-Rasťo: „Fero, ak ty na MALÝ WEB S ADMINISTRÁCIOU nasadíš Symfony, tak ja ťa OSOBNE vyhodím z tejto krčmy."
+**Rasťo**: „Fero, ak ty na MALÝ WEB S ADMINISTRÁCIOU nasadíš Symfony, tak ja ťa OSOBNE vyhodím z tejto krčmy."
 
-Fero (urazene): „A PREČO?!"
+**Fero** _(urazene)_: „A PREČO?!"
 
-Rasťo: „LEBO MINULE! Tvoja Symfony appka na web pre CUKRÁREŇ! CUKRÁREŇ, Fero! Mala Docker stack s PHP-FPM, NGINX, PostgreSQL, Redis, Elasticsearch a Kibanu! Na stránku kde sa ZOBRAZUJÚ TORTY! Koľko TORT tam bolo?"
+**Rasťo**: „LEBO MINULE! Tvoja Symfony appka na web pre CUKRÁREŇ! CUKRÁREŇ, Fero! Mala Docker stack s PHP-FPM, NGINX, PostgreSQL, Redis, Elasticsearch a Kibanu! Na stránku kde sa ZOBRAZUJÚ TORTY! Koľko TORT tam bolo?"
 
-Fero (ticho): „...dvanásť."
+**Fero** _(ticho)_: „...dvanásť."
 
-Rasťo: „DVANÁSŤ TORT V ELASTICSEARCH! Fulltext search nad DVANÁSTIMI TORTAMI! To by zvládla PODMIENKA V IF-e!"
+**Rasťo**: „DVANÁSŤ TORT V ELASTICSEARCH! Fulltext search nad DVANÁSTIMI TORTAMI! To by zvládla PODMIENKA V IF-e!"
 
-Maťo (sa smeješ tak že mu tečú slzy): „Elasticsearch... na torty... to je... to je NAJLEPŠIA VEC čo som počul tento ROK!"
+**Maťo** _(sa smeje tak že mu tečú slzy)_: „Elasticsearch... na torty... to je... to je NAJLEPŠIA VEC čo som počul tento ROK!"
 
-Fero (červený po uši): „Bola tam aj VYHĽADÁVACIA FUNKCIA! Čo ak by mali STO TORT?!"
+**Fero** _(červený po uši)_: „Bola tam aj VYHĽADÁVACIA FUNKCIA! Čo ak by mali STO TORT?!"
 
-Jožo: „AJ STO TORT ZVLÁDNE MYSQL LIKE QUERY, FERO! To učia v PRVOM ROČNÍKU!"
+**Jožo**: „AJ STO TORT ZVLÁDNE MYSQL LIKE QUERY, FERO! To učia v PRVOM ROČNÍKU!"
 
-Fero (sa postaví): „DOSŤ! Tak vy chcete BASTLIŤ?! NECH SA PÁČI! Ale keď ten projekt NARASTIE –"
+**Fero** _(sa postaví)_: „DOSŤ! Tak vy chcete BASTLIŤ?! NECH SA PÁČI! Ale keď ten projekt NARASTIE –"
 
-Ďuro: „JE TO MALÝ WEB! MALÝ! M-A-L-Ý! NEBUDE NARASTAŤ!"
+**Ďuro**: „JE TO MALÝ WEB! MALÝ! M-A-L-Ý! NEBUDE NARASTAŤ!"
 
-Fero: „KAŽDÝ PROJEKT NARASTIE! To je ZÁKON IT! Klient vždy príde s ešte jedna vec! A potom ešte jedna! A za rok máš MONOLITH čo nikto nerozumie!"
+**Fero**: „KAŽDÝ PROJEKT NARASTIE! To je ZÁKON IT! Klient vždy príde s ešte jedna vec! A potom ešte jedna! A za rok máš MONOLITH čo nikto nerozumie!"
 
-Maťo (prestane sa smiať): „...to je... to je vlastne pravda."
+**Maťo** _(prestane sa smiať)_: „...to je... to je vlastne pravda."
 
-Jožo (zastane): „...hej... to sa mi stalo s troma projektmi..."
+**Jožo** _(zastane)_: „...hej... to sa mi stalo s troma projektmi..."
 
-Ďuro: „...mne s DESIATIMI..."
+**Ďuro**: „...mne s DESIATIMI..."
 
-Rasťo: „VÁM VŠETKÝM sa to stáva VŽDY! A viete prečo?! Lebo NIKTO z vás nerobí PORIADNY ODHAD na začiatku! Klient povie malý web a vy poviete jasné a za tri mesiace máte ERP SYSTÉM!"
+**Rasťo**: „VÁM VŠETKÝM sa to stáva VŽDY! A viete prečo?! Lebo NIKTO z vás nerobí PORIADNY ODHAD na začiatku! Klient povie malý web a vy poviete jasné a za tri mesiace máte ERP SYSTÉM!"
 
 (ticho – všetci si uvedomia že Rasťo má pravdu)
 
-Jožo (pomaly): „Tak... čo navrhujete... že by sme sa NAOZAJ dohodli?"
+**Jožo** _(pomaly)_: „Tak... čo navrhujete... že by sme sa NAOZAJ dohodli?"
 
-Fero: „...ja by som mohol... ZNÍŽIŤ architektúru... možno nie CQRS na všetko..."
+**Fero**: „...ja by som mohol... ZNÍŽIŤ architektúru... možno nie CQRS na všetko..."
 
-Maťo: „...a ja pripúšťam že Nette komunita je... menšia..."
+**Maťo**: „...a ja pripúšťam že Nette komunita je... menšia..."
 
-Ďuro: „...a ja uznávam že dvadsaťdva pluginov je... veľa..."
+**Ďuro**: „...a ja uznávam že dvadsaťdva pluginov je... veľa..."
 
-Rasťo (sa usmieva): „No KONEČNE. Tak tu je MÔJ návrh. POČÚVAJTE –"
+**Rasťo** _(sa usmieva)_: „No KONEČNE. Tak tu je MÔJ návrh. POČÚVAJTE –"
 
-Ďuro: „Rasťo, ty si DEVOPS, nie ARCHITEKT –"
+**Ďuro**: „Rasťo, ty si DEVOPS, nie ARCHITEKT –"
 
-Rasťo: „ĎURO, ZAVRI ÚSTA A POČÚVAJ PRVÝKRÁT V ŽIVOTE!"
+**Rasťo**: „ĎURO, ZAVRI ÚSTA A POČÚVAJ PRVÝKRÁT V ŽIVOTE!"
 
-Ďuro (sadne si): „...dobre..."
+**Ďuro** _(sadne si)_: „...dobre..."
 
-Rasťo: „Ak je to NAOZAJ malý web – pár stránok, kontakt, žiadna administrácia – tak to spraví Ďuro. Áno, ĎURO. WordPress alebo aj len statické HTML. Je to pod jeho úroveň? Nie, lebo ON NEMÁ ŽIADNU ÚROVEŇ –"
+**Rasťo**: „Ak je to NAOZAJ malý web – pár stránok, kontakt, žiadna administrácia – tak to spraví Ďuro. Áno, ĎURO. WordPress alebo aj len statické HTML. Je to pod jeho úroveň? Nie, lebo ON NEMÁ ŽIADNU ÚROVEŇ –"
 
-Ďuro: „HEJ!"
+**Ďuro**: „HEJ!"
 
-Rasťo: „– ale zvládne to NAJRÝCHLEJŠIE a NAJLACNEJŠIE. AK – a to je veľké AK – bude treba administrácia, dynamický obsah, niečo na mieru – tak to spraví Maťo v Nette ALEBO Jožo v Laraveli. Podľa toho čo klient preferuje a koľko chce ZAPLATIŤ."
+**Rasťo**: „– ale zvládne to NAJRÝCHLEJŠIE a NAJLACNEJŠIE. AK – a to je veľké AK – bude treba administrácia, dynamický obsah, niečo na mieru – tak to spraví Maťo v Nette ALEBO Jožo v Laraveli. Podľa toho čo klient preferuje a koľko chce ZAPLATIŤ."
 
-Jožo: „A Fero?"
+**Jožo**: „A Fero?"
 
-Rasťo: „Fero príde vtedy keď to NARASTIE do enterprise úrovne. Čo sa pri MALOM WEBE NESTANE, takže Fero si môže ísť DOMOV."
+**Rasťo**: „Fero príde vtedy keď to NARASTIE do enterprise úrovne. Čo sa pri MALOM WEBE NESTANE, takže Fero si môže ísť DOMOV."
 
-Fero (vstane): „JA SI NEPÔJDEM DOMOV! Ja tu budem ČAKAŤ! Lebo vy to POKAŽ ÍTE a potom –"
+**Fero** _(vstane)_: „JA SI NEPÔJDEM DOMOV! Ja tu budem ČAKAŤ! Lebo vy to POKAŽ ÍTE a potom –"
 
-Rasťo: „A JA to celé nasadím, zmonitorujem a budem sa STARAŤ aby to BEŽALO. Ako VŽDY. Takže – DOHODA?"
+**Rasťo**: „A JA to celé nasadím, zmonitorujem a budem sa STARAŤ aby to BEŽALO. Ako VŽDY. Takže – DOHODA?"
 
 (všetci sa na seba pozerajú)
 
-Ďuro: „...ja som za..."
+**Ďuro**: „...ja som za..."
 
-Maťo: „...dobre... ale ak Ďuro to pokaží, ja preberám..."
+**Maťo**: „...dobre... ale ak Ďuro to pokaží, ja preberám..."
 
-Jožo: „...fajn... ale nech Ďuro NEDÁVA dvadsať pluginov..."
+**Jožo**: „...fajn... ale nech Ďuro NEDÁVA dvadsať pluginov..."
 
-Fero: „...ja nesúhlasím ale OSTANEM... pre prípad..."
+**Fero**: „...ja nesúhlasím ale OSTANEM... pre prípad..."
 
-Rasťo: „VÝBORNE. Prvý raz za PÄTNÁSŤ ROKOV ste sa na niečom DOHODLI. Idem si dať PIVO."
+**Rasťo**: „VÝBORNE. Prvý raz za PÄTNÁSŤ ROKOV ste sa na niečom DOHODLI. Idem si dať PIVO."
 
-Ďuro (zdvihne ruku): „...a kto PLATÍ?"
+**Ďuro** _(zdvihne ruku)_: „...a kto PLATÍ?"
 
-Všetci naraz smerom k Ladislavovi: „KLIENT!"
+**Všetci naraz** _(smerom k Ladislavovi)_: „KLIENT!"
 
-Ladislav, máme HISTORICKÚ DOHODU 😄 Vyzerá to tak že:
+**Claude:** Ladislav, máme HISTORICKÚ DOHODU 😄 Vyzerá to tak že:
 
-Ďuro začne – rýchly základ
-Maťo/Jožo v zálohe – ak treba niečo na mieru
-Fero čaká v kúte – pre prípad enterprise eskalácie
-Rasťo nasadí a bude sa starať
-Chcete niektorého z nich konečne oficiálne pustiť do práce?
+- Ďuro začne – rýchly základ
+- Maťo/Jožo v zálohe – ak treba niečo na mieru
+- Fero čaká v kúte – pre prípad enterprise eskalácie
+- Rasťo nasadí a bude sa starať
+
+**Claude:** Chcete niektorého z nich konečne oficiálne pustiť do práce?
